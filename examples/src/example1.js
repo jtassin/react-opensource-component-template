@@ -2,7 +2,7 @@ import React from 'react';
 import Playground  from 'component-playground';
 import MyComponent from '../../src/MyComponent';
 
-export default React.createClass({
+export default class extends React.component( ){
 	render () {
 		return (
 			<div style={{backgroundColor: 'white'}}>
@@ -10,4 +10,4 @@ export default React.createClass({
 			</div>
 		);
 	}
-});
+};
