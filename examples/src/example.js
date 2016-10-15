@@ -12,3 +12,6 @@ import Example2 from './example2';
 
 ReactDOM.render(<Example2 />, document.getElementById('example2'));
 
+import Example3 from './example3';
+
+ReactDOM.render(<Example3 />, document.getElementById('example3'));
